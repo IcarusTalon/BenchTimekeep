@@ -4,30 +4,30 @@ to use a different color start by replacing all instances of
 #5c87b2 with your new color.
 ----------------------------------------------------------*/
 body {
-    background-color: #5c87b2;
+    background-color:  #332200;
     font-size: .85em;
     font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
     margin: 0;
     padding: 0;
-    color: #696969;
+    color: #ffaa00;
 }
 
 a:link {
-    color: #034af3;
+    color: #ffaa00;
     text-decoration: underline;
 }
 
 a:visited {
-    color: #505abc;
+    color: #ffdd99;
 }
 
 a:hover {
-    color: #1d60ff;
+    color: #664400;
     text-decoration: none;
 }
 
 a:active {
-    color: #12eb87;
+    color: #332200;
 }
 
 p, ul {
@@ -46,7 +46,7 @@ section {
 ----------------------------------------------------------*/
 h1, h2, h3, h4, h5, h6 {
     font-size: 1.5em;
-    color: #000;
+    color: #ffaa00;
 }
 
 h1 {
@@ -85,7 +85,7 @@ page width. Or, you can specify an exact pixel width. */
 header, #header {
     position: relative;
     margin-bottom: 0px;
-    color: #000;
+    color: #ffaa00;
     padding: 0;
 }
 
@@ -93,7 +93,7 @@ header h1, #header h1 {
     font-weight: bold;
     padding: 5px 0;
     margin: 0;
-    color: #fff;
+    color: #ffaa00;
     border: none;
     line-height: 2em;
     font-size: 32px !important;
@@ -102,7 +102,7 @@ header h1, #header h1 {
 
 #main {
     padding: 30px 30px 15px 30px;
-    background-color: #fff;
+    background-color: #332200;
     border-radius: 4px 0 0 0;
     -webkit-border-radius: 4px 0 0 0;
     -moz-border-radius: 4px 0 0 0;
@@ -110,8 +110,8 @@ header h1, #header h1 {
 
 footer, 
 #footer {
-    background-color: #fff;
-    color: #999;
+    background-color: #332200;
+    color: #ffaa00;
     padding: 10px 0;
     text-align: center;
     line-height: normal;
@@ -125,7 +125,7 @@ footer,
 /* TAB MENU   
 ----------------------------------------------------------*/
 ul#menu {
-    border-bottom: 1px #5C87B2 solid;
+    border-bottom: 1px #ffaa00 solid;
     padding: 0 0 2px;
     position: relative;
     margin: 0;
@@ -142,7 +142,7 @@ ul#menu li#greeting {
     font-weight: bold;
     text-decoration: none;
     line-height: 2.8em;
-    color: #fff;
+    color: #ffaa00;
 }
 
 ul#menu li a {
@@ -150,25 +150,25 @@ ul#menu li a {
     font-weight: bold;
     text-decoration: none;
     line-height: 2.8em;
-    background-color: #e8eef4;
-    color: #034af3;
+    background-color: #664400;
+    color: #ffaa00;
     border-radius: 4px 4px 0 0;
     -webkit-border-radius: 4px 4px 0 0;
     -moz-border-radius: 4px 4px 0 0;
 }
 
 ul#menu li a:hover {
-    background-color: #fff;
+    background-color: #ffdd99;
     text-decoration: none;
 }
 
 ul#menu li a:active {
-    background-color: #a6e2a6;
+    background-color: #332200;
     text-decoration: none;
 }
 
 ul#menu li.selected a {
-    background-color: #fff;
+    background-color: #ffaa00;
     color: #000;
 }
 
@@ -176,7 +176,7 @@ ul#menu li.selected a {
 ----------------------------------------------------------*/
 
 fieldset {
-    border: 1px solid #ddd;
+    border: 1px solid #332200;
     padding: 0 1.4em 1.4em 1.4em;
     margin: 0 0 1.5em 0;
 }
@@ -192,10 +192,10 @@ textarea {
 
 input[type="text"], 
 input[type="password"] {
-    border: 1px solid #ccc;
+    border: 1px solid #ffaa00;
     padding: 2px;
     font-size: 1.2em;
-    color: #444;
+    color: #332200;
     width: 200px;
 }
 
@@ -215,20 +215,20 @@ input[type="submit"] {
 ----------------------------------------------------------*/
 
 table {
-    border: solid 1px #e8eef4;
+    border: solid 1px #ffaa00;
     border-collapse: collapse;
 }
 
 table td {
     padding: 5px;
-    border: solid 1px #e8eef4;
+    border: solid 1px #ffaa00;
 }
 
 table th {
     padding: 6px 5px;
     text-align: left;
-    background-color: #e8eef4;
-    border: solid 1px #e8eef4;
+    background-color: #332200;
+    border: solid 1px #ffaa00;
 }
 
 /* MISC  
@@ -238,7 +238,7 @@ table th {
 }
 
 .error {
-    color: Red;
+    color: #ffdd99;
 }
 
 nav, 
@@ -257,28 +257,28 @@ div#title {
     display: block;
     text-align: right;
     margin: 10px;
-    color: White;
+    color: #ffaa00;
 }
 
 #logindisplay a:link {
-    color: white;
+    color: #ffaa00;
     text-decoration: underline;
 }
 
 #logindisplay a:visited {
-    color: white;
+    color: #ffdd99;
     text-decoration: underline;
 }
 
 #logindisplay a:hover {
-    color: white;
+    color: #664400;
     text-decoration: none;
 }
 
 /* Styles for validation helpers
 -----------------------------------------------------------*/
 .field-validation-error {
-    color: #ff0000;
+    color: #ffdd99;
 }
 
 .field-validation-valid {
@@ -286,13 +286,13 @@ div#title {
 }
 
 .input-validation-error {
-    border: 1px solid #ff0000;
+    border: 1px solid #ffdd99;
     background-color: #ffeeee;
 }
 
 .validation-summary-errors {
     font-weight: bold;
-    color: #ff0000;
+    color: #ffdd99;
 }
 
 .validation-summary-valid {

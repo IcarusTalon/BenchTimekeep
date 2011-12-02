@@ -98,12 +98,24 @@
     <Content Include="Content\themes\base\jquery.ui.slider.css" />
     <Content Include="Content\themes\base\jquery.ui.tabs.css" />
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\calendar-theme\images\ui-bg_flat_10_332200_40x100.png" />
+    <Content Include="Content\themes\calendar-theme\images\ui-bg_flat_10_664400_40x100.png" />
+    <Content Include="Content\themes\calendar-theme\images\ui-bg_flat_10_ffdd99_40x100.png" />
+    <Content Include="Content\themes\calendar-theme\images\ui-bg_flat_40_ffdd99_40x100.png" />
+    <Content Include="Content\themes\calendar-theme\images\ui-bg_flat_80_ffdd99_40x100.png" />
+    <Content Include="Content\themes\calendar-theme\images\ui-bg_flat_90_ffaa00_40x100.png" />
+    <Content Include="Content\themes\calendar-theme\images\ui-icons_332200_256x240.png" />
+    <Content Include="Content\themes\calendar-theme\images\ui-icons_664400_256x240.png" />
+    <Content Include="Content\themes\calendar-theme\images\ui-icons_ffaa00_256x240.png" />
+    <Content Include="Content\themes\calendar-theme\jquery-ui-1.8.16.custom.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.5.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.5.1.js" />
     <Content Include="Scripts\jquery-1.5.1.min.js" />
+    <Content Include="Scripts\jquery-1.6.2.min.js" />
     <Content Include="Scripts\jquery-ui-1.8.11.js" />
     <Content Include="Scripts\jquery-ui-1.8.11.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.16.custom.min.js" />
     <Content Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
@@ -161,8 +173,8 @@
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
-          <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>3634</DevelopmentServerPort>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>14141</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
