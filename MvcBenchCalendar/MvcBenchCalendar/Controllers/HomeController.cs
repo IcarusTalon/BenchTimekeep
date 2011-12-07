@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace MvcBenchCalendar.Controllers
 {
+    [Authorize(Roles="users")]
     public class HomeController : Controller
     {
         public ActionResult Index()

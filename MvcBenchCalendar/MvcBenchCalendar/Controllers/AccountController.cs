@@ -12,6 +12,20 @@ namespace MvcBenchCalendar.Controllers
     public class AccountController : Controller
     {
 
+        public ActionResult Users()
+        {
+            ICollection<UserModel> users = new List<UserModel>();
+
+            var tempList = Membership.GetAllUsers();
+
+            foreach (MembershipUser currentUser in tempList)
+            {
+                users.Add(new UserModel { User = currentUser });
+            }
+
+            return View(users); 
+        }
+
         //
         // GET: /Account/LogOn
 
@@ -91,6 +105,8 @@ namespace MvcBenchCalendar.Controllers
                     ModelState.AddModelError("", ErrorCodeToString(createStatus));
                 }
             }
+
+            
 
             // If we got this far, something failed, redisplay form
             return View(model);

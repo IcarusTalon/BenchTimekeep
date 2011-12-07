@@ -9,17 +9,17 @@
     <script src="@Url.Content("~/Scripts/modernizr-1.7.min.js")" type="text/javascript"></script>
     <script src="@Url.Content("~/Scripts/jquery-ui-1.8.16.custom.min.js")" type="text/javascript"></script>
     <script type="text/javascript">
-    $(function(){
-    //Tabs
-    $('#tabs').tabs();
-    });
+        $(function () {
+            //Tabs
+            $('#tabs').tabs();
+        });
     </script>
 </head>
 <body>
     <div class="page">
         <header>
             <div id="title">
-                <h1>My MVC Application</h1>
+                <h1>Time Keeper</h1>
             </div>
             <div id="logindisplay">
                 @Html.Partial("_LogOnPartial")
@@ -28,28 +28,15 @@
                 <ul id="menu">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Users", "Users", "Account")</li>
+                    <li>@Html.ActionLink("Account", "Account", "Account")</li>
                 </ul>
             </nav>
-
-            <h2 class="demoHeaders">Tabs</h2>
-            <div id="tabs">
-                <ul>
-				<li><a href="#tabs-1">First</a></li>
-				<li><a href="#tabs-2">Second</a></li>
-				<li><a href="#tabs-3">Third</a></li>
-			</ul>
-			<div id="tabs-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-			<div id="tabs-2">Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.</div>
-			<div id="tabs-3">Nam dui erat, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.</div>
-            </div>
-            <a href="http://google.com">Test 1</a>
-            <a href="http://www.google.com/url?sa=t&rct=j&q=&esrc=s&frm=1&source=web&cd=1&ved=0CDEQFjAA&url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FModel%25E2%2580%2593view%25E2%2580%2593controller&ei=C_TYTvXXLeKqiQKZxoC3CQ&usg=AFQjCNEoEvCDLhz2Yph-XxbO1YhFwwXLIg">Test 2</a>
         </header>
         <section id="main">
             @RenderBody()
         </section>
         <footer>
-        <a href="http://www.google.com/url?sa=t&rct=j&q=&esrc=s&frm=1&source=web&cd=1&ved=0CDEQFjAA&url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FModel%25E2%2580%2593view%25E2%2580%2593controller&ei=C_TYTvXXLeKqiQKZxoC3CQ&usg=AFQjCNEoEvCDLhz2Yph-XxbO1YhFwwXLIg">Footer Test 2</a>
         </footer>
     </div>
 </body>

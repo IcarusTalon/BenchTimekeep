@@ -21,6 +21,8 @@ namespace MvcBenchCalendar
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            routes.MapRoute("Users", "Users", new { controller = "Users", action = "Index", id = UrlParameter.Optional });
+
             routes.MapRoute(
                 "Default", // Route name
                 "{controller}/{action}/{id}", // URL with parameters

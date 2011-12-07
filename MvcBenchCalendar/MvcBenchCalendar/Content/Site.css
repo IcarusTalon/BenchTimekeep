@@ -227,7 +227,8 @@ table td {
 table th {
     padding: 6px 5px;
     text-align: left;
-    background-color: #332200;
+    background-color: #ffdd99;
+    color:#664400;
     border: solid 1px #ffaa00;
 }
 

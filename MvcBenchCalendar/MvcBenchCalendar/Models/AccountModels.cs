@@ -64,4 +64,12 @@ namespace MvcBenchCalendar.Models
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
     }
+
+    public class UserModel
+    {
+        public MembershipUser User { get; set; }
+
+        //[Display(Name = "UserName")]
+        //public string UserName { get; set; }
+    }
 }
