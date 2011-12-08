@@ -116,8 +116,14 @@ namespace MvcBenchCalendar.Controllers
         // GET: /Account/ChangePassword
 
         [Authorize]
-        public ActionResult ChangePassword()
+        public ActionResult ChangePassword(string providerUserKey)
         {
+            
+
+
+           // MembershipUser test = Membership.GetUser(Guid.Parse( providerUserKey));
+
+
             return View();
         }
 
