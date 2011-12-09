@@ -26,7 +26,7 @@
                 @Html.Label(item.User.ProviderUserKey.ToString())
             </td>
             <td>
-                <a href="@Url.Action("ChangePassword", "Account", new { providerUserKey = item.User.ProviderUserKey.ToString() })" title="Edit" ><span class="ui-state-default ui-corner-all">
+                <a href="@Url.Action("EditUser", "Account", new { providerUserKey = item.User.ProviderUserKey.ToString()})" title="Edit" ><span class="ui-state-default ui-corner-all">
                     <span class="ui-icon ui-icon-pencil"></span></span></a>
             </td>
             <td>

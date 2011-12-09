@@ -26,6 +26,20 @@ namespace MvcBenchCalendar.Controllers
             return View(users); 
         }
 
+        
+        public ActionResult EditUser(string providerUserKey)
+        {
+            Guid providerUserKeyGuid = new Guid();
+
+            Guid.TryParse(providerUserKey, out providerUserKeyGuid);
+
+            MembershipUser user =  Membership.GetUser(providerUserKeyGuid);
+
+            UserModel userModel = new UserModel() { User = user};
+
+            return View(userModel);
+        }
+
         //
         // GET: /Account/LogOn
 

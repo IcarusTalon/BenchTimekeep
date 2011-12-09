@@ -35,6 +35,29 @@ p, ul {
     line-height: 1.6em;
 }
 
+input {
+    background-color:#664400;
+    color:#ffaa00;
+    border-color:#332200;
+    border-radius: 10px;
+}
+    
+input:hover
+{
+    background-color:#ffdd99;
+    color:#332200;
+    border-color:#ffaa00;
+}
+
+input:active
+{
+    background-color:#664400;
+    color:#ffaa00;
+    border-color:#332200;
+}    
+    
+   
+
 header,
 footer,
 nav,
@@ -176,7 +199,7 @@ ul#menu li.selected a {
 ----------------------------------------------------------*/
 
 fieldset {
-    border: 1px solid #332200;
+    border: 1px solid #664400;
     padding: 0 1.4em 1.4em 1.4em;
     margin: 0 0 1.5em 0;
 }
@@ -184,6 +207,7 @@ fieldset {
 legend {
     font-size: 1.2em;
     font-weight: bold;
+    color:#ffaa00;
 }
 
 textarea {

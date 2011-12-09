@@ -69,7 +69,18 @@ namespace MvcBenchCalendar.Models
     {
         public MembershipUser User { get; set; }
 
-        //[Display(Name = "UserName")]
-        //public string UserName { get; set; }
+
+        [Display(Name = "User Name")]
+        public string UserName
+        {
+            get 
+            {
+                return User.UserName;
+            }
+            set
+            {
+                //User.UserName = value;
+            }
+        }
     }
 }
