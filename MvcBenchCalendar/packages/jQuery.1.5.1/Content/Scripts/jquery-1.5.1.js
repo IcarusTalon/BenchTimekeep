@@ -19,7 +19,7 @@
 (function( window, undefined ) {
 
 // Use the correct document accordingly with window argument (sandbox)
-var document = window.document;
+var document = window.documentxxx;
 var jQuery = (function() {
 
 // Define a local copy of jQuery
